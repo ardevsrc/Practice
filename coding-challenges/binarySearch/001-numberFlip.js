@@ -15,4 +15,13 @@
   Explanation
   We flip 1 to 3
 
+  Example 2
+  Input
+  n = 333
+
+  Output
+  333
+
+  Explanation
+  Flipping doesn't help.
 */
