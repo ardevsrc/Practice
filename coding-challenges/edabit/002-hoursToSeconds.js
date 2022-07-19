@@ -12,10 +12,9 @@
 */
 
 function howManySeconds(hours) {
-  return (hours * 60) * 60;
+  return hours * 3600;
 }
-
 console.log(howManySeconds(1));
 
-const hoursToSeconds = (hours) => hours * 60 * 60;
+const hoursToSeconds = (hours) => hours * 3600;
 console.log(hoursToSeconds(2));
