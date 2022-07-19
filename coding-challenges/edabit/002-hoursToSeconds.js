@@ -11,3 +11,11 @@
     Don't forget to return your answer.
 */
 
+function howManySeconds(hours) {
+  return (hours * 60) * 60;
+}
+
+console.log(howManySeconds(1));
+
+const hoursToSeconds = (hours) => hours * 60 * 60;
+console.log(hoursToSeconds(2));
